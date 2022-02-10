@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentoApp.Domain", "D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Infra", "3- Infra", "{6F5BC513-4DF5-4D6C-920E-F5D8B1F1DE06}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelocamentoApp.Data", "Delocamento.Data\DelocamentoApp.Data.csproj", "{4FF26256-763A-4C42-A695-40230497C358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeslocamentoApp.Data", "Deslocamento.Data\DeslocamentoApp.Data.csproj", "{4FF26256-763A-4C42-A695-40230497C358}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEF0DEA4-54CD-4AE7-AC0A-C3BC8801B6C8}"
 	ProjectSection(SolutionItems) = preProject

@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>s</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Delocamento.Data\DelocamentoApp.Data.csproj" />
+    <ProjectReference Include="..\Deslocamento.Data\DeslocamentoApp.Data.csproj" />
     <ProjectReference Include="..\Deslocamento.Application\DeslocamentoApp.Application.csproj" />
     <ProjectReference Include="..\Deslocamento.Domain\DeslocamentoApp.Domain.csproj" />
   </ItemGroup>

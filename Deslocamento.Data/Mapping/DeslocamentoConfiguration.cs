@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelocamentoApp.Data.Mapping
+namespace DeslocamentoApp.Data.Mapping
 {
     public class DeslocamentoConfiguration : IEntityTypeConfiguration<Deslocamento>
     {

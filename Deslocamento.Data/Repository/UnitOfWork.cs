@@ -1,4 +1,4 @@
-﻿using DelocamentoApp.Data.Context;
+﻿using DeslocamentoApp.Data.Context;
 using DeslocamentoApp.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelocamentoApp.Data.Repository
+namespace DeslocamentoApp.Data.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

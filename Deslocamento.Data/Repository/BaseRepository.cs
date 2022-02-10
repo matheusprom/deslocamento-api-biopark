@@ -1,11 +1,11 @@
 ﻿
-using DelocamentoApp.Data.Context;
+using DeslocamentoApp.Data.Context;
 using DeslocamentoApp.Domain.Entities;
 using DeslocamentoApp.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace DelocamentoApp.Data.Repository
+namespace DeslocamentoApp.Data.Repository
 {
     public class BaseRepository<T> :
         IBaseRepository<T> where T : class

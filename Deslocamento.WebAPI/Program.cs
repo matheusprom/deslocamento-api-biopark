@@ -1,5 +1,5 @@
-using DelocamentoApp.Data.Context;
-using DelocamentoApp.Data.Repository;
+using DeslocamentoApp.Data.Context;
+using DeslocamentoApp.Data.Repository;
 using DeslocamentoApp.Domain.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +20,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("ApplicationDbContext"),
-        b => b.MigrationsAssembly("DelocamentoApp.Data"));
+        b => b.MigrationsAssembly("DeslocamentoApp.Data"));
 });
 
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();

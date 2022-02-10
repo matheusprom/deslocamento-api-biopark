@@ -1,4 +1,4 @@
-﻿using DelocamentoApp.Data.Mapping;
+﻿using DeslocamentoApp.Data.Mapping;
 using DeslocamentoApp.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelocamentoApp.Data.Context
+namespace DeslocamentoApp.Data.Context
 {
     public class ApplicationDbContext : DbContext
     {

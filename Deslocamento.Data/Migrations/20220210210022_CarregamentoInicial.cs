@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace DelocamentoApp.Data.Migrations
+namespace DeslocamentoApp.Data.Migrations
 {
     public partial class CarregamentoInicial : Migration
     {
